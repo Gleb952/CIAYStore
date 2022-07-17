@@ -3,24 +3,24 @@
         "name": "Постер CIAY Subclass Supra",
         "cost": 1290,
         "order": 1,
-        "img": "Supra.jpg"
+        "img_goods": "Supra.jpg"
     },
     "0002": {
         "name": "Постер CIAY 180SX concrette",
         "cost": 1290,
         "order": 2,
-        "img": "180SX.jpg"
+        "img_goods": "180SX.jpg"
     },
     "0003": {
         "name": "Постер CIAY Asphalt",
         "cost": 1290,
         "order": 3,
-        "img": "Asphalt.jpg"
+        "img_goods": "Asphalt.jpg"
     },
     "0004": {
         "name": "Постер CIAY Attack",
         "cost": 1290,
         "order": 4,
-        "img": "Attack.jpg"
+        "img_goods": "Attack.jpg"
     }
 }
