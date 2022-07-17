@@ -33,6 +33,7 @@
     height: 2rem;
     text-align: center;
 }
+
 .topnav input[type=text] {
     float: right;
     padding: 6px;
@@ -40,19 +41,21 @@
     margin-top: 8px;
     font-size: 17px;
 }
-.nav ul{
+
+.nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
     text-align: center;
     margin: 1rem auto;
 }
-.nav li{
+
+.nav li {
     list-style-type: none;
     margin: 0 1rem;
 }
 
-.nav a{
+.nav a {
     display: block;
     color: black;
     text-align: center;
@@ -60,6 +63,47 @@
     font-size: 17px;
 }
 
-#exem{
+#exem {
     color: black;
+}
+
+
+/* 
+---------------TAB-------------
+*/
+
+.tab_items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.tabs_item {
+    text-decoration: none;
+}
+
+.tabs_body {
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.tabs_block {
+    display: none;
+}
+
+.tabs_block:nth-child(1) {
+    background-color: #e62626;
+}
+
+.tabs_block:nth-child(2) {
+    background-color: #c9e626;
+}
+
+.tabs_block:nth-child(3) {
+    background-color: #2679e6;
+}
+
+.tabs_block:target {
+    display: block;
 }
