@@ -107,3 +107,17 @@
 .tabs_block:target {
     display: block;
 }
+
+
+
+
+.goods_out{
+    height: auto;
+}
+.card_img_top{
+    width: 5rem;
+    height: 5rem;
+}
+.card{
+    padding: 1rem;
+}
