@@ -1,0 +1,49 @@
+{
+    "BankCardSticker_0001": {
+        "name": "Bank card sticker Runout",
+        "cost": 300,
+        "order": 1,
+        "img_goods": "BankCardSticker/Runout.jpg"
+    }
+    ,
+    "BankCardSticker_0002": {
+        "name": "Bank card sticker Missle",
+        "cost": 300,
+        "order": 2,
+        "img_goods": "BankCardSticker/Asphalt.jpg"
+    }
+    ,
+    "BankCardSticker_0003": {
+        "name": "Bank card sticker Missle",
+        "cost": 300,
+        "order": 3,
+        "img_goods": "BankCardSticker/Altezza.jpg"
+    },
+    "BankCardSticker_0004": {
+        "name": "Bank card sticker Bad Habits",
+        "cost": 300,
+        "order": 4,
+        "img_goods": "BankCardSticker/BadHabits.jpg"
+    }
+    ,
+    "BankCardSticker_0005": {
+        "name": "Bank card sticker Fuji 32",
+        "cost": 300,
+        "order": 5,
+        "img_goods": "BankCardSticker/Fuji32.jpg"
+    }
+    ,
+    "BankCardSticker_0006": {
+        "name": "Bank card sticker Fully",
+        "cost": 300,
+        "order": 6,
+        "img_goods": "BankCardSticker/Fully.jpg"
+    },
+    "BankCardSticker_0007": {
+        "name": "Bank card sticker Bad Habits",
+        "cost": 300,
+        "order": 7,
+        "img_goods": "BankCardSticker/BadHabits.jpg"
+    }
+
+}
