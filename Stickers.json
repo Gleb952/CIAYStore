@@ -1,9 +1,21 @@
 {
     "Sticker_0001": {
-        "name": "CIAY 4eyeCat",
+        "name": "CIAY 4eye Cat",
         "cost": 200,
         "order": 1,
         "img_goods": "Sticker/4eyeCat.jpg"
+    },
+    "Sticker_0002": {
+        "name": "CIAY RED Cardinal",
+        "cost": 200,
+        "order": 2,
+        "img_goods": "Sticker/REDCardinal.jpg"
+    },
+    "Sticker_0003": {
+        "name": "CIAY RED Cardinal",
+        "cost": 200,
+        "order": 3,
+        "img_goods": "Sticker/REDCardinal.jpg"
     }
 
 }
