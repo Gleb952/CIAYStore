@@ -43,7 +43,7 @@ function Sticker() {
 
 
         }
-        $('.goods_outBankCardSticker').html(out);
+        $('.goods_outStickers').html(out);
 
     }
 }
