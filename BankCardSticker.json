@@ -40,10 +40,35 @@
         "img_goods": "BankCardSticker/Fully.jpg"
     },
     "BankCardSticker_0007": {
-        "name": "Bank card sticker Bad Habits",
+        "name": "Bank card sticker M3",
         "cost": 300,
         "order": 7,
-        "img_goods": "BankCardSticker/BadHabits.jpg"
+        "img_goods": "BankCardSticker/M3.jpg"
+    },
+    "BankCardSticker_0008": {
+        "name": "Bank card sticker R34",
+        "cost": 300,
+        "order": 8,
+        "img_goods": "BankCardSticker/R34.jpg"
+    },
+    "BankCardSticker_0009": {
+        "name": "Bank card sticker 180sx",
+        "cost": 300,
+        "order": 9,
+        "img_goods": "BankCardSticker/180sx.jpg"
+    },
+    "BankCardSticker_0010": {
+        "name": "Bank card sticker Porsche",
+        "cost": 300,
+        "order": 10,
+        "img_goods": "BankCardSticker/Porsche.jpg"
     }
-
+    ,
+    "BankCardSticker_0011": {
+        "name": "Bank card sticker Duck",
+        "cost": 300,
+        "order": 11,
+        "img_goods": "BankCardSticker/Duck.jpg"
+    }
+    
 }
