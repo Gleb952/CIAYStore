@@ -84,7 +84,11 @@
 .tabs_block:target {
     display: block;
 }
-
+@media (max-width: 575px) { 
+    .row{
+        display: block;
+    }
+ }
 
 
 
