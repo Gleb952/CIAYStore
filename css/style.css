@@ -66,6 +66,9 @@ body{
     .row{
         display: block;
     }
+    .card{
+        max-height: 100vh;
+    }
  }
 
 
