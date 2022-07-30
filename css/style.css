@@ -68,7 +68,7 @@ body{
         display: block;
     }
     .card{
-        max-height: 100vh;
+        max-height: 90%;
     }
  }
 
@@ -85,4 +85,5 @@ body{
 
 .card {
     padding: 1rem;
+    max-width: 90%;
 }
