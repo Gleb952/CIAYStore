@@ -12,10 +12,77 @@
         "img_goods": "Sticker/REDCardinal.jpg"
     },
     "Sticker_0003": {
-        "name": "CIAY RED Cardinal",
+        "name": "CIAY AE Panda",
         "cost": 200,
         "order": 3,
-        "img_goods": "Sticker/REDCardinal.jpg"
+        "img_goods": "Sticker/AEPanda.jpg"
+    },
+    "Sticker_0004": {
+        "name": "CIAY Chaser Shark",
+        "cost": 200,
+        "order": 4,
+        "img_goods": "Sticker/ChaserShark.jpg"
+    },
+    "Sticker_0005": {
+        "name": "CIAY Bad Boy",
+        "cost": 200,
+        "order": 5,
+        "img_goods": "Sticker/BadBoy.jpg"
+    },
+    "Sticker_0006": {
+        "name": "CIAY Fast Duck",
+        "cost": 200,
+        "order": 6,
+        "img_goods": "Sticker/FastDuck.jpg"
+    },
+    "Sticker_0007": {
+        "name": "CIAY Gocha",
+        "cost": 200,
+        "order": 7,
+        "img_goods": "Sticker/Gocha.jpg"
+    },
+    "Sticker_0008": {
+        "name": "CIAY R34 Croco",
+        "cost": 200,
+        "order": 8,
+        "img_goods": "Sticker/R34Croco.jpg"
+    },
+    "Sticker_0009": {
+        "name": "CIAY Piggy",
+        "cost": 200,
+        "order": 9,
+        "img_goods": "Sticker/Piggy.jpg"
+    },
+    "Sticker_0010": {
+        "name": "CIAY Tiger",
+        "cost": 200,
+        "order": 10,
+        "img_goods": "Sticker/Tiger.jpg"
+    },
+    "Sticker_0011": {
+        "name": "CIAY USSR Bear",
+        "cost": 200,
+        "order": 11,
+        "img_goods": "Sticker/USSRBear.jpg"
+    },
+    "Sticker_0012": {
+        "name": "CIAY FOX",
+        "cost": 200,
+        "order": 12,
+        "img_goods": "Sticker/FOX.jpg"
+    },
+    "Sticker_0013": {
+        "name": "CIAY s14 Boss",
+        "cost": 200,
+        "order": 13,
+        "img_goods": "Sticker/s14Boss.jpg"
+    }
+    ,
+    "Sticker_0014": {
+        "name": "CIAY Lion",
+        "cost": 200,
+        "order": 14,
+        "img_goods": "Sticker/Lion.jpg"
     }
 
 }
