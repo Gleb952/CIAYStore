@@ -83,6 +83,30 @@
         "cost": 200,
         "order": 14,
         "img_goods": "Sticker/Lion.jpg"
+    },
+    "Sticker_0015": {
+        "name": "Lobash CIAY Autosport",
+        "cost": 200,
+        "order": 15,
+        "img_goods": "Sticker/Autosport.jpg"
+    },
+    "Sticker_0016": {
+        "name": "Lobash CIAY KingsOfStreet",
+        "cost": 200,
+        "order": 16,
+        "img_goods": "Sticker/KingsOfStreet.jpg"
+    },
+    "Sticker_0017": {
+        "name": "Lobash CIAY Make drifting",
+        "cost": 200,
+        "order": 17,
+        "img_goods": "Sticker/MakeDrifting.jpg"
+    },
+    "Sticker_0018": {
+        "name": "CA Classic Logo Inverse",
+        "cost": 200,
+        "order": 18,
+        "img_goods": "Sticker/CAClassic.jpg"
     }
 
 }

@@ -47,6 +47,54 @@ function Sticker() {
 
     }
 }
+function Keychains() {
+    // читаем файл goods.json
+    $.getJSON('Keychains.json', KeychainsOut);
+
+    function KeychainsOut(data) {
+        // вывод на страницу
+        console.log(data);
+        var out = '';
+        for (var key in data) {
+            out += '<div class="card col">';
+            out += '<img clas="card_img_top img_goods" src="img/' + data[key].img_goods + '" alt="photo">';
+            out += '<div class="card-body">';
+            out += '<h5 class="card-title text-center name">' + data[key].name + '</h5>';
+            out += '<p class="card-text text-secondary text-center cost">' + data[key].cost + '</p>';
+            out += '</div>';
+            out += `<button type="button" class="btn btn-outline-secondary addToBacket" data-id="${key}">By</button>`;
+            out += '</div>';
+
+
+        }
+        $('.goods_outKeychains').html(out);
+
+    }
+}
+function Belts() {
+    // читаем файл goods.json
+    $.getJSON('Belts.json', BeltsOut);
+
+    function BeltsOut(data) {
+        // вывод на страницу
+        console.log(data);
+        var out = '';
+        for (var key in data) {
+            out += '<div class="card col">';
+            out += '<img clas="card_img_top img_goods" src="img/' + data[key].img_goods + '" alt="photo">';
+            out += '<div class="card-body">';
+            out += '<h5 class="card-title text-center name">' + data[key].name + '</h5>';
+            out += '<p class="card-text text-secondary text-center cost">' + data[key].cost + '</p>';
+            out += '</div>';
+            out += `<button type="button" class="btn btn-outline-secondary addToBacket" data-id="${key}">By</button>`;
+            out += '</div>';
+
+
+        }
+        $('.goods_outBelts').html(out);
+
+    }
+}
 function BankCardSticker() {
     // читаем файл BankCardSticker.json
     $.getJSON('BankCardSticker.json', BankCardStickerOut);
@@ -93,6 +141,8 @@ function BankCardSticker() {
 $(document).ready(function () {
     posters();
     Sticker();
+    Keychains();
+    Belts ();
     BankCardSticker();
 
 });
