@@ -94,9 +94,10 @@ body {
     height: auto;
 }
 
-.card_img_top {
-    width: 5rem;
-    height: 5rem;
+.card>img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
 
 .card {
