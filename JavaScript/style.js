@@ -157,9 +157,17 @@ function BankCardSticker() {
         } else {
             cart[id]++;
         }
-        console.log(cart);
+        showMiniCart();
     }
 
+}
+function showMiniCart() {
+    //показываю мини корзину
+    var out="";
+    for (var key in cart) {
+        out += key +' --- '+ cart[key]+'<br>';
+    }
+    $('.mini-cart').html(out);
 }
 
 $(document).ready(function () {
@@ -168,6 +176,7 @@ $(document).ready(function () {
     Keychains();
     Belts ();
     Lanyard ();
+ 
     BankCardSticker();
 
 });
