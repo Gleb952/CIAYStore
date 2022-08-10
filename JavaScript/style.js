@@ -158,6 +158,7 @@ function BankCardSticker() {
             cart[id]++;
         }
         showMiniCart();
+        saveCart();
     }
 
 }
@@ -169,6 +170,16 @@ function showMiniCart() {
     }
     $('.mini-cart').html(out);
 }
+function saveCart (){
+    localStorage.setItem('cart', JSON.stringify(cart));
+}
+function loadCart (){
+    if (localStorage.getItem('cart')){
+        cart = JSON.parse(localStorage.getItem('cart'));
+        showMiniCart();
+    }
+}
+
 
 $(document).ready(function () {
     posters();
@@ -176,7 +187,7 @@ $(document).ready(function () {
     Keychains();
     Belts ();
     Lanyard ();
- 
     BankCardSticker();
+    loadCart();
 
 });
