@@ -25,14 +25,24 @@ function showCart() {
             out += '</div>';
         }
         $('.cart').html(out);
+        $('.del-goods').on('click', delGoods);
     })
 };
 
+function delGoods() {
+    //удаляем товар из корзины
+    var id = $(this).attr('data-id');
+    delete cart[id];
+    saveCart();
+    showCart();
+}
 
+function saveCart() {
+    //сохраняю корзину в localStorage
+    localStorage.setItem('cart', JSON.stringify(cart)); //корзину в строку
+}
 
 
 $(document).ready(function () {
     loadCart();
-    showCart();
-
 });
