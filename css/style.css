@@ -1,6 +1,7 @@
 body {
     overflow-x: hidden;
 }
+
 .main {
     width: 80%;
     margin: 0 auto;
@@ -11,6 +12,24 @@ body {
     position: fixed;
     top: 20px;
     right: 10%;
+}
+
+/* ---- BASKET ----  */
+.imgBasket {
+    width: 30%;
+}
+
+.del-goods {
+    border: none;
+}
+
+.cartBasket {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
 }
 
 .nav {
@@ -37,7 +56,8 @@ body {
     text-decoration: none;
     font-size: 17px;
 }
-.topnav{
+
+.topnav {
     display: flex;
     justify-content: center;
 }
