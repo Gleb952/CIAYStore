@@ -1,0 +1,57 @@
+{
+    "posters_0001": {
+        "name": "CIAY Subclass Supra",
+        "cost": 1290,
+        "order": 1,
+        "img_goods": "posters/Supra.jpg"
+    },
+    "posters_0002": {
+        "name": "CIAY 180SX concrette",
+        "cost": 1290,
+        "order": 2,
+        "img_goods": "posters/180SX.jpg"
+    },
+    "posters_0003": {
+        "name": "CIAY Asphalt",
+        "cost": 1290,
+        "order": 3,
+        "img_goods": "posters/Asphalt.jpg"
+    },
+    "posters_0004": {
+        "name": "CIAY Attack",
+        "cost": 1290,
+        "order": 4,
+        "img_goods": "posters/Attack.jpg"
+    },
+    "posters_0005": {
+        "name": "CIAY Fuji R32",
+        "cost": 1290,
+        "order": 5,
+        "img_goods": "posters/R32.jpg"
+    },
+    "posters_0006": {
+        "name": "CIAY Clean Weekend",
+        "cost": 1290,
+        "order": 6,
+        "img_goods": "posters/CleanWeekend.jpg"
+    },
+    "posters_0007": {
+        "name": "CIAY Fully loaded",
+        "cost": 1290,
+        "order": 7,
+        "img_goods": "posters/FullyLoaded.jpg"
+    },
+    "posters_0008": {
+        "name": "CIAY Import",
+        "cost": 1290,
+        "order": 8,
+        "img_goods": "posters/Import.jpg"
+    },
+    "posters_0009": {
+        "name": "CIAY Rusty Missle",
+        "cost": 1290,
+        "order": 9,
+        "img_goods": "posters/RustyMissle.jpg"
+    }
+
+}

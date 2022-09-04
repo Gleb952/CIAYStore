@@ -12,8 +12,8 @@ function loadCart() {
 
 
 
-function showCart() {
-    $.getJSON("posters.json", function (data) {
+function showCart(file) {
+    $.getJSON(file, function (data) {
         var goods = data;
         var out = '';
         for (var id in cart) {

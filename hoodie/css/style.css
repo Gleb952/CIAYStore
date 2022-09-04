@@ -1,0 +1,129 @@
+body {
+    overflow-x: hidden;
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+#basket {
+    position: fixed;
+    top: 20px;
+    right: 10%;
+}
+
+/* ---- BASKET ----  */
+.imgBasket {
+    width: 30%;
+}
+
+.del-goods {
+    border: none;
+}
+
+.cartBasket {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.nav {
+    overflow-x: hidden;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.nav li {
+    list-style-type: none;
+    margin: 0 1rem;
+}
+
+.nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+    .nav ul {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .nav {
+        float: none;
+        display: block;
+    }
+}
+
+/* 
+---------------TAB-------------
+*/
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tabs_block {
+    display: none;
+}
+
+/* 
+.tabs_block:nth-child(1) {}
+
+.tabs_block:nth-child(2) {}
+
+.tabs_block:nth-child(3) {} */
+
+.tabs_block:target {
+    display: block;
+}
+
+@media (max-width: 575px) {
+    .row {
+        display: block;
+    }
+
+    .card {
+        max-height: 90%;
+    }
+}
+
+
+.row {
+    justify-content: center;
+}
+
+.goods_out {
+    height: auto;
+}
+
+.card>img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.card {
+    margin: 10px;
+    max-width: 90%;
+}
