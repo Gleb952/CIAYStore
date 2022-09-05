@@ -3,55 +3,37 @@
         "name": "CIAY Subclass Supra",
         "cost": 1290,
         "order": 1,
-        "img_goods": "hoodie/Supra.jpg"
+        "img_goods": "hoodie"
     },
     "hoodie_0002": {
-        "name": "CIAY 180SX concrette",
+        "name": "CIAY Subclass Supra",
         "cost": 1290,
         "order": 2,
-        "img_goods": "hoodie/180SX.jpg"
+        "img_goods": "hoodie"
     },
     "hoodie_0003": {
-        "name": "CIAY Asphalt",
+        "name": "CIAY Subclass Supra",
         "cost": 1290,
         "order": 3,
-        "img_goods": "hoodie/Asphalt.jpg"
+        "img_goods": "hoodie"
     },
     "hoodie_0004": {
-        "name": "CIAY Attack",
+        "name": "CIAY Subclass Supra",
         "cost": 1290,
         "order": 4,
-        "img_goods": "hoodie/Attack.jpg"
+        "img_goods": "hoodie"
     },
     "hoodie_0005": {
-        "name": "CIAY Fuji R32",
+        "name": "CIAY Subclass Supra",
         "cost": 1290,
         "order": 5,
-        "img_goods": "hoodie/R32.jpg"
+        "img_goods": "hoodie"
     },
     "hoodie_0006": {
-        "name": "CIAY Clean Weekend",
+        "name": "CIAY Subclass Supra",
         "cost": 1290,
         "order": 6,
-        "img_goods": "hoodie/CleanWeekend.jpg"
-    },
-    "hoodie_0007": {
-        "name": "CIAY Fully loaded",
-        "cost": 1290,
-        "order": 7,
-        "img_goods": "hoodie/FullyLoaded.jpg"
-    },
-    "hoodie_0008": {
-        "name": "CIAY Import",
-        "cost": 1290,
-        "order": 8,
-        "img_goods": "hoodie/Import.jpg"
-    },
-    "hoodie_0009": {
-        "name": "CIAY Rusty Missle",
-        "cost": 1290,
-        "order": 9,
-        "img_goods": "hoodie/RustyMissle.jpg"
+        "img_goods": "hoodie"
     }
 
 }
