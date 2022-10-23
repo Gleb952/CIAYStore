@@ -12,6 +12,7 @@ function loadCart() {
 }
 
 function showCart() {
+
     //вывод корзины
     if (!isEmpty(cart)) {
         $('.mainCart').html('Корзина пуста!');
@@ -46,7 +47,7 @@ function saveCart() {
     localStorage.setItem('cart', JSON.stringify(cart)); //корзину в строку
 }
 
-function isEmpty(object) {
+function isEmpty(object) { 
     //проверка корзины на пустоту
     for (var key in object)
         if (object.hasOwnProperty(key)) return true;
