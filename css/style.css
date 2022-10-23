@@ -29,7 +29,11 @@ body {
     align-items: center;
     width: 80%;
     height: auto;
-    margin: 0 auto;
+    margin: 1rem auto;
+    border-radius: 10px;
+    border: 0px solid black;
+    background: white;
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 90%);
 }
 
 .nav {
@@ -61,6 +65,12 @@ body {
     display: flex;
     justify-content: center;
 }
+.btnBack{
+    margin: 1rem ;
+    width: 40%;
+}
+
+
 
 @media screen and (max-width: 500px) {
     .nav ul {
