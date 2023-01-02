@@ -23,7 +23,7 @@
         </div>
 
             <div>
-                <a class="btn btn-outline-primary btnBack" id="exem" href="index.html">Back</a>
+                <a class="btn btn-outline-primary btnBack" id="exem" href="index.php">Back</a>
             </div>
 
         <div class="mainCart">

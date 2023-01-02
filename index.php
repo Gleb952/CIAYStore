@@ -24,7 +24,7 @@
             <div class="main">
 
                 <div id="basket">
-                    <a href="basket.html"><img src="img/buy.png" alt="photo"></a>
+                    <a href="basket.php"><img src="img/buy.png" alt="photo"></a>
                 </div>
                 <div class="topnav">
                     <a class="active" href="#home"><img src="img/logo.png" alt="photo"></a>
@@ -34,26 +34,22 @@
 
                 <div class="nav">
                     <ul class="justify-content-center">
-                        <li><a href="index.html" class="tabs_item">Home</a></li>
-                        <li><a href="index.html" class="tabs_item">About</a></li>
+                        <li><a href="index.php" class="tabs_item">Home</a></li>
+                        <li><a href="about.php" class="tabs_item">About</a></li>
                     </ul>
 
                 </div>
 
+                <div class="goods_Out row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
 
+                     
+                </div>
             </div>
-
-            <div class="mini-cart"></div>
-            <div class="content">
-                
-            </div>
-
-
 
 
             <footer>
                 <hr>
-                <p>shop.ciay.ru © since 2007 - 2022 CA shop</p>
+                <p class="footerP">shop.ciay.ru © since 2007 - 2022 CA shop</p>
             </footer>
         </div>
     </div>
