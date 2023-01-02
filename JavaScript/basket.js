@@ -26,10 +26,12 @@ function showCart() {
                 out += ` ${goods[id].name  }`;
                 out += ` ${cart[id]  }`;
                 out += `<button data-id="${id}" class="del-goods"><img src="img/trash.png"></button>`;
+                out += `<button data-id="${id}" class="plus-goods">+</button>`;
                 out += '</div>';
             }
             $('.mainCart').html(out);
             $('.del-goods').on('click', delGoods);
+            $('.plus-goods').on('click', plusGoods);
         });
     }
 }
@@ -38,6 +40,13 @@ function delGoods() {
     //удаляем товар из корзины
     var id = $(this).attr('data-id');
     delete cart[id];
+    saveCart();
+    showCart();
+}
+function plusGoods() {
+    //добавляем товар из корзины
+    var id = $(this).attr('data-id');
+    cart[id]++;
     saveCart();
     showCart();
 }
