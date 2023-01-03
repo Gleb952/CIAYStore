@@ -26,7 +26,12 @@
                 <a class="btn btn-outline-primary btnBack" id="exem" href="index.php">Back</a>
             </div>
 
-        <div class="mainCart">
+        <div class="mainCart"></div>
+        <div class="emailField">
+        <p>Name: <input type="text" id="ename"></p>
+        <p>Email: <input type="text" id="email"></p>
+        <p>Phone: <input type="text" id="ephone"></p>
+        <p><button class="send-email">Buy</button></p>
 
         </div>
 
