@@ -83,7 +83,7 @@ function sendEmail (){
                 "cart" : cart 
             },
             function(data){
-                
+                console.log(dat);
             }
             );
         }else{
