@@ -26,11 +26,8 @@
                 <div id="basket">
                     <a href="basket.php"><img src="img/buy.png" alt="photo"></a>
                 </div>
-                <div class="topnav">
-                    <a class="active" href="#home"><img src="img/logo.png" alt="photo"></a>
-                </div>
 
-                <h1>CIAY</h1>
+                <h1>Yokomo</h1>
 
                 <div class="nav">
                     <ul class="justify-content-center">
