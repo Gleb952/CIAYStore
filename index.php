@@ -28,7 +28,7 @@
                 </div>
 
 
-                <h1>Yokomo</h1>
+                <h1>Street</h1>
 
                 <div class="nav">
                     <ul class="justify-content-center">
