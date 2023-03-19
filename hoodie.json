@@ -1,0 +1,51 @@
+{
+    "hoodie_0001": {
+        "name": "CIAY B-logo navy",
+        "cost": 6720,
+        "order": 1,
+        "img_goods": "hoodie/B-logo_navy.jpg"
+    },
+    "hoodie_0002": {
+        "name": "CIAY B-logo pnk",
+        "cost": 6720,
+        "order": 2,
+        "img_goods": "hoodie/B-logo_pnk.jpg"
+    },
+    "hoodie_0003": {
+        "name": "CIAY Cat Hunter",
+        "cost": 6720,
+        "order": 3,
+        "img_goods": "hoodie/Cat_Hunter.jpg"
+    },
+    "hoodie_0004": {
+        "name": "CIAY Banned Bro",
+        "cost": 7200,
+        "order": 4,
+        "img_goods": "hoodie/BannedBro.jpg"
+    },
+    "hoodie_0005": {
+        "name": "CIAY Banned Bro Red",
+        "cost": 7200,
+        "order": 5,
+        "img_goods": "hoodie/BannedBroRed.jpg"
+    },
+    "hoodie_0006": {
+        "name": "CIAY Hello bge",
+        "cost": 9360,
+        "order": 6,
+        "img_goods": "hoodie/Hello_bge.jpg"
+    },
+    "hoodie_0007": {
+        "name": "CIAY Flammable soft",
+        "cost": 9360,
+        "order": 7,
+        "img_goods": "hoodie/Flammable_soft.jpg"
+    },
+    "hoodie_0008": {
+        "name": "CIAY GRN Skull",
+        "cost": 9360,
+        "order": 8,
+        "img_goods": "hoodie/GRNSkull.jpg"
+    }
+
+}
